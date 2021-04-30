@@ -715,7 +715,9 @@ class _EditorTextSelectionGestureDetectorState
         },
       );
     }
-
+    print('gestures $gestures');
+    print('widget.behavior ${widget.behavior}');
+    print(' widget.child ${widget.child}');
     return RawGestureDetector(
       gestures: gestures,
       excludeFromSemantics: true,
